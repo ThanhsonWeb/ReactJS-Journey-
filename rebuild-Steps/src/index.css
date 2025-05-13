@@ -1,0 +1,83 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ccc;
+}
+
+.box {
+	width: 400px;
+	background-color: antiquewhite;
+	text-align: center;
+	padding: 20px;
+}
+
+.wrap-step {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	margin: 10px auto;
+}
+
+.step {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid black;
+	font-size: 1.4rem;
+}
+
+.step.active {
+	border-color: darkblue;
+	color: darkblue;
+	background-color: rgb(200, 200, 247);
+}
+
+.content {
+	font-size: 2rem;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.btn-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.btn {
+	padding: 10px 19px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.btn:active {
+	scale: 0.95;
+}
+
+.message {
+	font-weight: normal;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.btn-toggle {
+	padding: 10px 18px;
+	outline: none;
+	border-radius: 4px;
+	background-color: brown;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-toggle:active {
+	scale: 0.95;
+}
